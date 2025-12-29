@@ -1,0 +1,5 @@
+.env
+dc-data
+.venv
+sbom-dev.json
+sbom-prod.json

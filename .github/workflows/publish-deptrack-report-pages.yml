@@ -1,0 +1,84 @@
+name: Publish security reports to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]   # поменяйте, если нужно
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare Pages content
+        run: |
+          set -euo pipefail
+
+          if [ ! -d "reports" ]; then
+            echo "Directory 'reports' not found in repository root."
+            echo "Make sure you committed reports/ (or adjust the path)."
+            exit 1
+          fi
+
+          rm -rf site
+          mkdir -p site
+
+          # Копируем все отчёты
+          cp -R reports site/reports
+
+          # Генерируем удобную главную страницу
+          cat > site/index.html <<'EOF'
+          <!doctype html>
+          <html lang="ru">
+            <head>
+              <meta charset="utf-8" />
+              <meta name="viewport" content="width=device-width, initial-scale=1" />
+              <title>Security Reports</title>
+              <style>
+                body { font-family: Arial, sans-serif; margin: 24px; }
+                code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+              </style>
+            </head>
+            <body>
+              <h1>Security Reports</h1>
+
+              <h2>Dependency-Check</h2>
+              <ul>
+                <li><a href="./reports/dc/dependency-check-report.html">HTML report</a></li>
+                <li><a href="./reports/dc/dependency-check-report.json">JSON report</a></li>
+                <li><a href="./reports/dc/dc.log">Scan log</a></li>
+              </ul>
+
+              <h2>Dependency-Track</h2>
+              <ul>
+                <li><a href="./reports/dependency-track/report.html">HTML report</a></li>
+              </ul>
+
+              <hr />
+              <p>Путь в репозитории: <code>reports/</code></p>
+            </body>
+          </html>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
