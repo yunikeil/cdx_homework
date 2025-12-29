@@ -17,6 +17,7 @@ cyclonedx-py requirements -i requirements-dev.txt -o sbom-dev.json
 ## Запуск Dependency-Check
 
 Разовая команда для загрузки данных уязвимостей
+Получать ключ тут: https://nvd.nist.gov/developers/request-an-api-key
 
 ```bash
 docker run --rm -it \
