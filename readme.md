@@ -65,6 +65,9 @@ curl -X POST "http://localhost:8081/api/v1/bom" \
 
 Результат: https://yunikeil.ru/cdx_homework/reports/dependency-track/report.html
 
+![Отображение пакетов](assets/image.png)
+Отображение пакетов
+
 ## Автоматизация actions
 
 [reports](.github/workflows/publish-deptrack-report-pages.yml)
