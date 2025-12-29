@@ -1,13 +1,18 @@
 
+report: https://yunikeil.ru/cdx_homework/
 
 ## Установка зависимостей
 
+```
 pip install -r requirements.txt -r requirements-dev.txt
+```
 
 ## Генерация SBOM файлов
 
+```
 cyclonedx-py requirements -i requirements.txt -o sbom-prod.json
 cyclonedx-py requirements -i requirements-dev.txt -o sbom-dev.json
+```
 
 ## Запуск Dependency-Check
 
@@ -57,6 +62,8 @@ curl -X POST "http://localhost:8081/api/v1/bom" \
 
 {"token":"0cad9ea3-ba0d-486f-8c31-7e2787f73878"}
 ```
+
+Результат: https://yunikeil.ru/cdx_homework/reports/dependency-track/report.html
 
 ## Автоматизация actions
 

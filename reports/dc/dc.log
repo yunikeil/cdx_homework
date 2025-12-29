@@ -1581,3 +1581,611 @@ DEBUG - End deregister driver
 DEBUG - Deleting ALL temporary files from `/tmp/dctemp689bcaad-5e4c-45c7-9e2c-a7cfa0ed30a5`
 2025-12-29 20:16:09,863 org.owasp.dependencycheck.App:94
 DEBUG - Exit code: 0
+2025-12-29 20:50:04,261 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: data.directory='/usr/share/dependency-check/data'
+2025-12-29 20:50:04,263 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: odc.autoupdate='false'
+2025-12-29 20:50:04,264 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: odc.reports.pretty.print='true'
+2025-12-29 20:50:04,264 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.jar.enabled='true'
+2025-12-29 20:50:04,265 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: updater.versioncheck.enabled='true'
+2025-12-29 20:50:04,265 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.msbuildproject.enabled='true'
+2025-12-29 20:50:04,265 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.archive.enabled='true'
+2025-12-29 20:50:04,265 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.knownexploited.enabled='true'
+2025-12-29 20:50:04,265 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.python.distribution.enabled='true'
+2025-12-29 20:50:04,266 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.python.package.enabled='true'
+2025-12-29 20:50:04,266 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.autoconf.enabled='true'
+2025-12-29 20:50:04,266 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.maveninstall.enabled='true'
+2025-12-29 20:50:04,266 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.pip.enabled='true'
+2025-12-29 20:50:04,267 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.pipfile.enabled='true'
+2025-12-29 20:50:04,267 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.poetry.enabled='true'
+2025-12-29 20:50:04,267 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.cmake.enabled='true'
+2025-12-29 20:50:04,267 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.nuspec.enabled='true'
+2025-12-29 20:50:04,267 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.nugetconf.enabled='true'
+2025-12-29 20:50:04,267 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.assembly.enabled='true'
+2025-12-29 20:50:04,268 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.bundle.audit.enabled='true'
+2025-12-29 20:50:04,268 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.filename.enabled='true'
+2025-12-29 20:50:04,268 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.mix.audit.enabled='true'
+2025-12-29 20:50:04,268 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.openssl.enabled='true'
+2025-12-29 20:50:04,268 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.composer.lock.enabled='true'
+2025-12-29 20:50:04,269 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.cpanfile.enabled='true'
+2025-12-29 20:50:04,269 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.golang.dep.enabled='true'
+2025-12-29 20:50:04,269 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.golang.mod.enabled='true'
+2025-12-29 20:50:04,269 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.dart.enabled='true'
+2025-12-29 20:50:04,269 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.node.package.enabled='true'
+2025-12-29 20:50:04,269 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.node.audit.enabled='true'
+2025-12-29 20:50:04,270 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.yarn.audit.enabled='true'
+2025-12-29 20:50:04,270 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.pnpm.audit.enabled='true'
+2025-12-29 20:50:04,270 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.node.audit.use.cache='true'
+2025-12-29 20:50:04,270 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.retirejs.enabled='true'
+2025-12-29 20:50:04,270 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.swift.package.manager.enabled='true'
+2025-12-29 20:50:04,271 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.swift.package.resolved.enabled='true'
+2025-12-29 20:50:04,271 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.cocoapods.enabled='true'
+2025-12-29 20:50:04,271 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.carthage.enabled='true'
+2025-12-29 20:50:04,271 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.ruby.gemspec.enabled='true'
+2025-12-29 20:50:04,271 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.central.enabled='true'
+2025-12-29 20:50:04,271 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.central.use.cache='true'
+2025-12-29 20:50:04,271 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.ossindex.enabled='true'
+2025-12-29 20:50:04,272 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.ossindex.use.cache='true'
+2025-12-29 20:50:04,272 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: junit.fail.on.cvss='0.0'
+2025-12-29 20:50:04,272 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: analyzer.nexus.proxy='true'
+2025-12-29 20:50:04,273 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: hosted.suppressions.enabled='true'
+2025-12-29 20:50:04,513 org.owasp.dependencycheck.App:378
+DEBUG - Scanning /src/requirements.txt
+2025-12-29 20:50:04,528 org.owasp.dependencycheck.App:397
+DEBUG - BaseDir: /src
+2025-12-29 20:50:04,528 org.owasp.dependencycheck.App:398
+DEBUG - Include: requirements.txt
+2025-12-29 20:50:04,535 org.owasp.dependencycheck.App:416
+DEBUG - Found file /src/requirements.txt
+2025-12-29 20:50:04,536 org.owasp.dependencycheck.App:378
+DEBUG - Scanning /src/requirements-dev.txt
+2025-12-29 20:50:04,536 org.owasp.dependencycheck.App:397
+DEBUG - BaseDir: /src
+2025-12-29 20:50:04,536 org.owasp.dependencycheck.App:398
+DEBUG - Include: requirements-dev.txt
+2025-12-29 20:50:04,537 org.owasp.dependencycheck.App:416
+DEBUG - Found file /src/requirements-dev.txt
+2025-12-29 20:50:04,576 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Archive Analyzer
+2025-12-29 20:50:04,578 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer File Name Analyzer
+2025-12-29 20:50:04,649 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Jar Analyzer
+2025-12-29 20:50:04,652 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Hint Analyzer
+2025-12-29 20:50:04,658 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer CPE Analyzer
+2025-12-29 20:50:04,660 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer False Positive Analyzer
+2025-12-29 20:50:04,663 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Dependency Bundling Analyzer
+2025-12-29 20:50:04,664 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Dependency Merging Analyzer
+2025-12-29 20:50:04,665 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer NVD CVE Analyzer
+2025-12-29 20:50:04,669 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Vulnerability Suppression Analyzer
+2025-12-29 20:50:04,670 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Central Analyzer
+2025-12-29 20:50:04,671 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Nexus Analyzer
+2025-12-29 20:50:04,672 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Artifactory Analyzer
+2025-12-29 20:50:04,673 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Nuspec Analyzer
+2025-12-29 20:50:04,675 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Nugetconf Analyzer
+2025-12-29 20:50:04,680 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer MSBuild Project Analyzer
+2025-12-29 20:50:04,684 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Assembly Analyzer
+2025-12-29 20:50:04,703 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer OpenSSL Source Analyzer
+2025-12-29 20:50:04,707 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Node.js Package Analyzer
+2025-12-29 20:50:04,709 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Node Audit Analyzer
+2025-12-29 20:50:04,712 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Yarn Audit Analyzer
+2025-12-29 20:50:04,715 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Pnpm Audit Analyzer
+2025-12-29 20:50:04,722 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer RetireJS Analyzer
+2025-12-29 20:50:04,730 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Ruby Bundle Audit Analyzer
+2025-12-29 20:50:04,738 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Version Filter Analyzer
+2025-12-29 20:50:04,744 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Sonatype OSS Index Analyzer
+2025-12-29 20:50:04,855 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Known Exploited Vulnerability Analyzer
+2025-12-29 20:50:04,860 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Unused Suppression Rule Analyzer
+2025-12-29 20:50:04,872 org.owasp.dependencycheck.analyzer.AnalyzerService:113
+DEBUG - Loaded Analyzer Libman Analyzer
+2025-12-29 20:50:04,876 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:05,117 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:05,117 org.owasp.dependencycheck.utils.Settings:1558
+DEBUG - Data directory: /usr/share/dependency-check/data
+2025-12-29 20:50:05,119 org.owasp.dependencycheck.utils.Settings:1574
+DEBUG - Connection String: 'jdbc:h2:file:/usr/share/dependency-check/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2025-12-29 20:50:05,119 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:05,121 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:05,122 org.owasp.dependencycheck.utils.Settings:1558
+DEBUG - Data directory: /usr/share/dependency-check/data
+2025-12-29 20:50:05,122 org.owasp.dependencycheck.utils.Settings:1574
+DEBUG - Connection String: 'jdbc:h2:file:/usr/share/dependency-check/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2025-12-29 20:50:05,124 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:05,153 org.owasp.dependencycheck.utils.WriteLock:168
+DEBUG - Lock file created (main) d7e99d38001e3bb8fa119c9de6567757 @ 2025-12-29 20:50:05.153
+2025-12-29 20:50:05,159 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:05,161 org.owasp.dependencycheck.utils.Settings:1558
+DEBUG - Data directory: /usr/share/dependency-check/data
+2025-12-29 20:50:05,164 org.owasp.dependencycheck.utils.Settings:1574
+DEBUG - Connection String: 'jdbc:h2:file:/usr/share/dependency-check/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;'
+2025-12-29 20:50:05,164 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:05,171 org.owasp.dependencycheck.utils.FileUtils:125
+DEBUG - Temporary directory is `/tmp/dctempefdfc895-fdba-40ab-996e-3c7a24a2408e`
+2025-12-29 20:50:05,172 org.owasp.dependencycheck.Engine:1008
+DEBUG - copying database /usr/share/dependency-check/data/odc.mv.db to /tmp/dctempefdfc895-fdba-40ab-996e-3c7a24a2408e
+2025-12-29 20:50:05,918 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: data.h2.directory='/tmp/dctempefdfc895-fdba-40ab-996e-3c7a24a2408e'
+2025-12-29 20:50:05,922 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: data.connection_string='jdbc:h2:file:%s;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r'
+2025-12-29 20:50:05,923 org.owasp.dependencycheck.utils.Settings:1075
+DEBUG - Setting: odc.autoupdate='false'
+2025-12-29 20:50:05,956 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:143
+DEBUG - Loading driver 'org.h2.Driver'
+2025-12-29 20:50:05,969 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/tmp/dctempefdfc895-fdba-40ab-996e-3c7a24a2408e'
+2025-12-29 20:50:05,971 org.owasp.dependencycheck.utils.Settings:1558
+DEBUG - Data directory: /tmp/dctempefdfc895-fdba-40ab-996e-3c7a24a2408e
+2025-12-29 20:50:05,974 org.owasp.dependencycheck.utils.Settings:1574
+DEBUG - Connection String: 'jdbc:h2:file:/tmp/dctempefdfc895-fdba-40ab-996e-3c7a24a2408e/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r'
+2025-12-29 20:50:05,975 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:178
+DEBUG - Loading database connection
+2025-12-29 20:50:05,976 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:179
+DEBUG - Connection String: jdbc:h2:file:/tmp/dctempefdfc895-fdba-40ab-996e-3c7a24a2408e/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;RETENTION_TIME=1000;MAX_COMPACT_TIME=10000;ACCESS_MODE_DATA=r
+2025-12-29 20:50:05,976 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:180
+DEBUG - Database User: dcuser
+2025-12-29 20:50:06,684 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:245
+DEBUG - Database product: h2
+2025-12-29 20:50:06,807 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:506
+DEBUG - DC Schema: 5.5
+2025-12-29 20:50:06,854 org.owasp.dependencycheck.data.nvdcve.DatabaseManager:507
+DEBUG - DB Schema: 5.5
+2025-12-29 20:50:06,867 org.owasp.dependencycheck.utils.WriteLock:240
+DEBUG - Lock released (main) d7e99d38001e3bb8fa119c9de6567757 @ 2025-12-29 20:50:06.867
+2025-12-29 20:50:07,179 org.owasp.dependencycheck.Engine:642
+INFO  - 
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://dependency-check.github.io/DependencyCheck/general/internals.html
+   False Positives: https://dependency-check.github.io/DependencyCheck/general/suppression.html
+
+
+2025-12-29 20:50:07,183 org.owasp.dependencycheck.Engine:651
+DEBUG - 
+----------------------------------------------------
+BEGIN ANALYSIS
+----------------------------------------------------
+2025-12-29 20:50:07,184 org.owasp.dependencycheck.Engine:652
+INFO  - Analysis Started
+2025-12-29 20:50:07,185 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Archive Analyzer
+2025-12-29 20:50:07,186 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Archive Analyzer (not enabled)
+2025-12-29 20:50:07,187 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Ruby Bundle Audit Analyzer
+2025-12-29 20:50:07,189 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Ruby Bundle Audit Analyzer (not enabled)
+2025-12-29 20:50:07,191 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing File Name Analyzer
+2025-12-29 20:50:07,192 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting File Name Analyzer
+2025-12-29 20:50:07,200 org.owasp.dependencycheck.Engine:808
+DEBUG - Parallel processing with up to 8 threads: File Name Analyzer.
+2025-12-29 20:50:07,202 org.owasp.dependencycheck.Engine:675
+INFO  - Finished File Name Analyzer (0 seconds)
+2025-12-29 20:50:07,205 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Jar Analyzer
+2025-12-29 20:50:07,207 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Jar Analyzer (not enabled)
+2025-12-29 20:50:07,209 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Central Analyzer
+2025-12-29 20:50:07,210 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Central Analyzer (not enabled)
+2025-12-29 20:50:07,211 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Nexus Analyzer
+2025-12-29 20:50:07,213 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - Nexus Analyzer has been disabled
+2025-12-29 20:50:07,216 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Nexus Analyzer (not enabled)
+2025-12-29 20:50:07,217 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Artifactory Analyzer
+2025-12-29 20:50:07,218 org.owasp.dependencycheck.analyzer.AbstractAnalyzer:104
+DEBUG - Artifactory Analyzer has been disabled
+2025-12-29 20:50:07,223 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Artifactory Analyzer (not enabled)
+2025-12-29 20:50:07,231 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Nuspec Analyzer
+2025-12-29 20:50:07,233 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Nuspec Analyzer (not enabled)
+2025-12-29 20:50:07,234 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Nugetconf Analyzer
+2025-12-29 20:50:07,235 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Nugetconf Analyzer (not enabled)
+2025-12-29 20:50:07,236 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing MSBuild Project Analyzer
+2025-12-29 20:50:07,237 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping MSBuild Project Analyzer (not enabled)
+2025-12-29 20:50:07,237 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Assembly Analyzer
+2025-12-29 20:50:07,238 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Assembly Analyzer (not enabled)
+2025-12-29 20:50:07,239 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing OpenSSL Source Analyzer
+2025-12-29 20:50:07,250 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping OpenSSL Source Analyzer (not enabled)
+2025-12-29 20:50:07,264 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Node.js Package Analyzer
+2025-12-29 20:50:07,267 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Node.js Package Analyzer (not enabled)
+2025-12-29 20:50:07,268 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Libman Analyzer
+2025-12-29 20:50:07,271 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Libman Analyzer (not enabled)
+2025-12-29 20:50:07,273 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Dependency Merging Analyzer
+2025-12-29 20:50:07,274 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting Dependency Merging Analyzer
+2025-12-29 20:50:07,275 org.owasp.dependencycheck.Engine:811
+DEBUG - Parallel processing is not supported: Dependency Merging Analyzer.
+2025-12-29 20:50:07,284 org.owasp.dependencycheck.Engine:675
+INFO  - Finished Dependency Merging Analyzer (0 seconds)
+2025-12-29 20:50:07,288 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Hint Analyzer
+2025-12-29 20:50:07,504 org.owasp.dependencycheck.analyzer.HintAnalyzer:334
+DEBUG - 47 hint rules were loaded.
+2025-12-29 20:50:07,505 org.owasp.dependencycheck.analyzer.HintAnalyzer:335
+DEBUG - 6 duplicating hint rules were loaded.
+2025-12-29 20:50:07,505 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting Hint Analyzer
+2025-12-29 20:50:07,505 org.owasp.dependencycheck.Engine:808
+DEBUG - Parallel processing with up to 8 threads: Hint Analyzer.
+2025-12-29 20:50:07,505 org.owasp.dependencycheck.Engine:675
+INFO  - Finished Hint Analyzer (0 seconds)
+2025-12-29 20:50:07,506 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Version Filter Analyzer
+2025-12-29 20:50:07,506 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting Version Filter Analyzer
+2025-12-29 20:50:07,506 org.owasp.dependencycheck.Engine:808
+DEBUG - Parallel processing with up to 8 threads: Version Filter Analyzer.
+2025-12-29 20:50:07,506 org.owasp.dependencycheck.Engine:675
+INFO  - Finished Version Filter Analyzer (0 seconds)
+2025-12-29 20:50:07,507 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing CPE Analyzer
+2025-12-29 20:50:13,330 org.owasp.dependencycheck.analyzer.CPEAnalyzer:213
+INFO  - Created CPE Index (5 seconds)
+2025-12-29 20:50:13,351 org.owasp.dependencycheck.analyzer.CPEAnalyzer:188
+DEBUG - Skipping CPE Analysis for npm
+2025-12-29 20:50:13,558 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:13,565 org.owasp.dependencycheck.utils.Settings:1276
+DEBUG - Settings.getDataFile() - file: '/usr/share/dependency-check/data'
+2025-12-29 20:50:13,590 org.owasp.dependencycheck.utils.WriteLock:168
+DEBUG - Lock file created (main) 6bdb85577689297f841dd72f0a901eeb @ 2025-12-29 20:50:13.59
+2025-12-29 20:50:13,596 org.owasp.dependencycheck.analyzer.AbstractSuppressionAnalyzer:299
+DEBUG - copying hosted suppressions file /usr/share/dependency-check/data/publishedSuppressions.xml to /tmp/dc-basesuppressions16789809614518055301.xml
+2025-12-29 20:50:13,601 org.owasp.dependencycheck.utils.WriteLock:240
+DEBUG - Lock released (main) 6bdb85577689297f841dd72f0a901eeb @ 2025-12-29 20:50:13.601
+2025-12-29 20:50:13,627 org.owasp.dependencycheck.analyzer.AbstractSuppressionAnalyzer:160
+DEBUG - 0 suppression rules were loaded.
+2025-12-29 20:50:13,628 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting CPE Analyzer
+2025-12-29 20:50:13,628 org.owasp.dependencycheck.Engine:808
+DEBUG - Parallel processing with up to 8 threads: CPE Analyzer.
+2025-12-29 20:50:13,628 org.owasp.dependencycheck.Engine:675
+INFO  - Finished CPE Analyzer (6 seconds)
+2025-12-29 20:50:13,629 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing False Positive Analyzer
+2025-12-29 20:50:13,630 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting False Positive Analyzer
+2025-12-29 20:50:13,631 org.owasp.dependencycheck.Engine:808
+DEBUG - Parallel processing with up to 8 threads: False Positive Analyzer.
+2025-12-29 20:50:13,632 org.owasp.dependencycheck.Engine:675
+INFO  - Finished False Positive Analyzer (0 seconds)
+2025-12-29 20:50:13,633 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing NVD CVE Analyzer
+2025-12-29 20:50:13,633 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting NVD CVE Analyzer
+2025-12-29 20:50:13,633 org.owasp.dependencycheck.Engine:808
+DEBUG - Parallel processing with up to 8 threads: NVD CVE Analyzer.
+2025-12-29 20:50:13,633 org.owasp.dependencycheck.Engine:675
+INFO  - Finished NVD CVE Analyzer (0 seconds)
+2025-12-29 20:50:13,634 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Node Audit Analyzer
+2025-12-29 20:50:13,634 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Node Audit Analyzer (not enabled)
+2025-12-29 20:50:13,634 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Yarn Audit Analyzer
+2025-12-29 20:50:13,635 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Yarn Audit Analyzer (not enabled)
+2025-12-29 20:50:13,636 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Pnpm Audit Analyzer
+2025-12-29 20:50:13,638 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Pnpm Audit Analyzer (not enabled)
+2025-12-29 20:50:13,638 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing RetireJS Analyzer
+2025-12-29 20:50:13,638 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping RetireJS Analyzer (not enabled)
+2025-12-29 20:50:13,639 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Sonatype OSS Index Analyzer
+2025-12-29 20:50:13,639 org.owasp.dependencycheck.analyzer.OssIndexAnalyzer:137
+WARN  - Disabling OSS Index analyzer due to missing user/password credentials. Authentication is now required: https://ossindex.sonatype.org/doc/auth-required
+2025-12-29 20:50:13,639 org.owasp.dependencycheck.Engine:677
+DEBUG - Skipping Sonatype OSS Index Analyzer (not enabled)
+2025-12-29 20:50:13,640 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Vulnerability Suppression Analyzer
+2025-12-29 20:50:13,641 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting Vulnerability Suppression Analyzer
+2025-12-29 20:50:13,641 org.owasp.dependencycheck.Engine:808
+DEBUG - Parallel processing with up to 8 threads: Vulnerability Suppression Analyzer.
+2025-12-29 20:50:13,642 org.owasp.dependencycheck.Engine:675
+INFO  - Finished Vulnerability Suppression Analyzer (0 seconds)
+2025-12-29 20:50:13,643 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Known Exploited Vulnerability Analyzer
+2025-12-29 20:50:13,741 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting Known Exploited Vulnerability Analyzer
+2025-12-29 20:50:13,742 org.owasp.dependencycheck.Engine:808
+DEBUG - Parallel processing with up to 8 threads: Known Exploited Vulnerability Analyzer.
+2025-12-29 20:50:13,742 org.owasp.dependencycheck.Engine:675
+INFO  - Finished Known Exploited Vulnerability Analyzer (0 seconds)
+2025-12-29 20:50:13,743 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Dependency Bundling Analyzer
+2025-12-29 20:50:13,743 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting Dependency Bundling Analyzer
+2025-12-29 20:50:13,744 org.owasp.dependencycheck.Engine:811
+DEBUG - Parallel processing is not supported: Dependency Bundling Analyzer.
+2025-12-29 20:50:13,744 org.owasp.dependencycheck.Engine:675
+INFO  - Finished Dependency Bundling Analyzer (0 seconds)
+2025-12-29 20:50:13,744 org.owasp.dependencycheck.Engine:825
+DEBUG - Initializing Unused Suppression Rule Analyzer
+2025-12-29 20:50:13,745 org.owasp.dependencycheck.Engine:760
+DEBUG - Starting Unused Suppression Rule Analyzer
+2025-12-29 20:50:13,745 org.owasp.dependencycheck.Engine:811
+DEBUG - Parallel processing is not supported: Unused Suppression Rule Analyzer.
+2025-12-29 20:50:13,746 org.owasp.dependencycheck.Engine:675
+INFO  - Finished Unused Suppression Rule Analyzer (0 seconds)
+2025-12-29 20:50:13,754 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Archive Analyzer'
+2025-12-29 20:50:13,756 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Ruby Bundle Audit Analyzer'
+2025-12-29 20:50:13,759 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'File Name Analyzer'
+2025-12-29 20:50:13,762 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Jar Analyzer'
+2025-12-29 20:50:13,765 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Central Analyzer'
+2025-12-29 20:50:13,767 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Nexus Analyzer'
+2025-12-29 20:50:13,769 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Artifactory Analyzer'
+2025-12-29 20:50:13,771 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Nuspec Analyzer'
+2025-12-29 20:50:13,772 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Nugetconf Analyzer'
+2025-12-29 20:50:13,774 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'MSBuild Project Analyzer'
+2025-12-29 20:50:13,777 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Assembly Analyzer'
+2025-12-29 20:50:13,779 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'OpenSSL Source Analyzer'
+2025-12-29 20:50:13,781 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Node.js Package Analyzer'
+2025-12-29 20:50:13,782 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Libman Analyzer'
+2025-12-29 20:50:13,783 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Dependency Merging Analyzer'
+2025-12-29 20:50:13,784 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Hint Analyzer'
+2025-12-29 20:50:13,785 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Version Filter Analyzer'
+2025-12-29 20:50:13,786 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'CPE Analyzer'
+2025-12-29 20:50:13,797 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'False Positive Analyzer'
+2025-12-29 20:50:13,797 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'NVD CVE Analyzer'
+2025-12-29 20:50:13,798 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Node Audit Analyzer'
+2025-12-29 20:50:13,799 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Yarn Audit Analyzer'
+2025-12-29 20:50:13,799 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Pnpm Audit Analyzer'
+2025-12-29 20:50:13,799 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'RetireJS Analyzer'
+2025-12-29 20:50:13,800 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Sonatype OSS Index Analyzer'
+2025-12-29 20:50:13,801 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Vulnerability Suppression Analyzer'
+2025-12-29 20:50:13,802 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Known Exploited Vulnerability Analyzer'
+2025-12-29 20:50:13,803 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Dependency Bundling Analyzer'
+2025-12-29 20:50:13,803 org.owasp.dependencycheck.Engine:856
+DEBUG - Closing Analyzer 'Unused Suppression Rule Analyzer'
+2025-12-29 20:50:13,804 org.owasp.dependencycheck.Engine:685
+DEBUG - 
+----------------------------------------------------
+END ANALYSIS
+----------------------------------------------------
+2025-12-29 20:50:13,804 org.owasp.dependencycheck.Engine:687
+INFO  - Analysis Complete (6 seconds)
+2025-12-29 20:50:13,857 org.apache.velocity.runtime.RuntimeInstance:272
+DEBUG - Initializing Velocity, Calling init()...
+2025-12-29 20:50:13,857 org.apache.velocity.runtime.RuntimeInstance:276
+DEBUG - Starting Apache Velocity 2.4.1
+2025-12-29 20:50:13,864 org.apache.velocity.runtime.RuntimeInstance:522
+DEBUG - Default Properties resource: org/apache/velocity/runtime/defaults/velocity.properties
+2025-12-29 20:50:13,873 org.apache.velocity.runtime.resource.loader.ResourceLoaderFactory:48
+DEBUG - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2025-12-29 20:50:13,875 org.apache.velocity.runtime.resource.loader.FileResourceLoader:83
+DEBUG - FileResourceLoader: adding path '.'
+2025-12-29 20:50:13,880 org.apache.velocity.runtime.resource.ResourceCacheImpl:119
+DEBUG - initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2025-12-29 20:50:13,885 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2025-12-29 20:50:13,886 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2025-12-29 20:50:13,888 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2025-12-29 20:50:13,889 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2025-12-29 20:50:13,891 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2025-12-29 20:50:13,893 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2025-12-29 20:50:13,894 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2025-12-29 20:50:13,895 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2025-12-29 20:50:13,916 org.apache.velocity.runtime.ParserPoolImpl:57
+DEBUG - Created 20 parsers.
+2025-12-29 20:50:13,942 org.apache.velocity.runtime.VelocimacroFactory:152
+DEBUG - "velocimacro.library.path" is not set. Trying default library: velocimacros.vtl
+2025-12-29 20:50:13,944 org.apache.velocity.runtime.VelocimacroFactory:162
+DEBUG - Default library velocimacros.vtl not found. Trying old default library: VM_global_library.vm
+2025-12-29 20:50:13,945 org.apache.velocity.runtime.VelocimacroFactory:169
+DEBUG - Old default library VM_global_library.vm not found.
+2025-12-29 20:50:13,946 org.apache.velocity.runtime.VelocimacroFactory:253
+DEBUG - allowInline = true: VMs can be defined inline in templates
+2025-12-29 20:50:13,947 org.apache.velocity.runtime.VelocimacroFactory:274
+DEBUG - allowInlineToOverride = false: VMs defined inline may NOT replace previous VM definitions
+2025-12-29 20:50:13,947 org.apache.velocity.runtime.VelocimacroFactory:297
+DEBUG - allowInlineLocal = false: VMs defined inline will be global in scope if allowed.
+2025-12-29 20:50:13,947 org.apache.velocity.runtime.VelocimacroFactory:315
+DEBUG - autoload off: VM system will not automatically reload global library macros
+2025-12-29 20:50:14,012 org.owasp.dependencycheck.reporting.ReportGenerator:360
+INFO  - Writing HTML report to: /report/dependency-check-report.html
+2025-12-29 20:50:14,815 org.apache.velocity.runtime.VelocimacroFactory:385
+DEBUG - added VM writeHtmlException: source=org.apache.velocity.Template@1386313f
+2025-12-29 20:50:15,271 org.apache.velocity.runtime.RuntimeInstance:272
+DEBUG - Initializing Velocity, Calling init()...
+2025-12-29 20:50:15,273 org.apache.velocity.runtime.RuntimeInstance:276
+DEBUG - Starting Apache Velocity 2.4.1
+2025-12-29 20:50:15,279 org.apache.velocity.runtime.RuntimeInstance:522
+DEBUG - Default Properties resource: org/apache/velocity/runtime/defaults/velocity.properties
+2025-12-29 20:50:15,280 org.apache.velocity.runtime.resource.loader.ResourceLoaderFactory:48
+DEBUG - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2025-12-29 20:50:15,285 org.apache.velocity.runtime.resource.loader.FileResourceLoader:83
+DEBUG - FileResourceLoader: adding path '.'
+2025-12-29 20:50:15,301 org.apache.velocity.runtime.resource.ResourceCacheImpl:119
+DEBUG - initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2025-12-29 20:50:15,305 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2025-12-29 20:50:15,306 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2025-12-29 20:50:15,307 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2025-12-29 20:50:15,309 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2025-12-29 20:50:15,311 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2025-12-29 20:50:15,312 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2025-12-29 20:50:15,313 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2025-12-29 20:50:15,315 org.apache.velocity.runtime.RuntimeInstance:1084
+DEBUG - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2025-12-29 20:50:15,335 org.apache.velocity.runtime.ParserPoolImpl:57
+DEBUG - Created 20 parsers.
+2025-12-29 20:50:15,338 org.apache.velocity.runtime.VelocimacroFactory:152
+DEBUG - "velocimacro.library.path" is not set. Trying default library: velocimacros.vtl
+2025-12-29 20:50:15,343 org.apache.velocity.runtime.VelocimacroFactory:162
+DEBUG - Default library velocimacros.vtl not found. Trying old default library: VM_global_library.vm
+2025-12-29 20:50:15,345 org.apache.velocity.runtime.VelocimacroFactory:169
+DEBUG - Old default library VM_global_library.vm not found.
+2025-12-29 20:50:15,346 org.apache.velocity.runtime.VelocimacroFactory:253
+DEBUG - allowInline = true: VMs can be defined inline in templates
+2025-12-29 20:50:15,347 org.apache.velocity.runtime.VelocimacroFactory:274
+DEBUG - allowInlineToOverride = false: VMs defined inline may NOT replace previous VM definitions
+2025-12-29 20:50:15,348 org.apache.velocity.runtime.VelocimacroFactory:297
+DEBUG - allowInlineLocal = false: VMs defined inline will be global in scope if allowed.
+2025-12-29 20:50:15,348 org.apache.velocity.runtime.VelocimacroFactory:315
+DEBUG - autoload off: VM system will not automatically reload global library macros
+2025-12-29 20:50:15,354 org.owasp.dependencycheck.reporting.ReportGenerator:360
+INFO  - Writing JSON report to: /report/dependency-check-report.json
+2025-12-29 20:50:15,421 org.apache.velocity.runtime.VelocimacroFactory:385
+DEBUG - added VM writeJsonException: source=org.apache.velocity.Template@52d6d273
+2025-12-29 20:50:15,475 org.owasp.dependencycheck.reporting.ReportGenerator:561
+DEBUG - pretify json: /report/dependency-check-report.json
+2025-12-29 20:50:16,630 org.owasp.dependencycheck.data.nvdcve.CveDB:312
+DEBUG - Closing database
+2025-12-29 20:50:16,634 org.owasp.dependencycheck.data.nvdcve.CveDB:314
+DEBUG - Cache cleared
+2025-12-29 20:50:16,657 org.owasp.dependencycheck.data.nvdcve.CveDB:317
+DEBUG - Connection closed
+2025-12-29 20:50:16,658 org.owasp.dependencycheck.data.nvdcve.CveDB:323
+DEBUG - Resources released
+2025-12-29 20:50:16,658 org.owasp.dependencycheck.data.nvdcve.DriverLoader:57
+DEBUG - Begin deregister driver
+2025-12-29 20:50:16,659 org.owasp.dependencycheck.data.nvdcve.DriverLoader:59
+DEBUG - End deregister driver
+2025-12-29 20:50:16,703 org.owasp.dependencycheck.utils.Settings:987
+DEBUG - Deleting ALL temporary files from `/tmp/dctempefdfc895-fdba-40ab-996e-3c7a24a2408e`
+2025-12-29 20:50:16,736 org.owasp.dependencycheck.App:94
+DEBUG - Exit code: 0

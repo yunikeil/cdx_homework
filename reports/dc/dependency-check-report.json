@@ -12,7 +12,7 @@
   },
   "projectInfo" : {
     "name" : "fastapi-sbom-demo",
-    "reportDate" : "2025-12-29T20:16:08.594450834Z",
+    "reportDate" : "2025-12-29T20:50:15.349520129Z",
     "credits" : {
       "NVD" : "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
       "CISA" : "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
