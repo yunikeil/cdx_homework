@@ -172,6 +172,11 @@ async def get_order(order_id: int, db: AsyncSession = Depends(get_db)):
         created_at=order.created_at,
     )
 
+
+"""
+docker compose up --build
+"""
+
 """
 curl -X POST http://localhost:8000/orders \
   -H "Content-Type: application/json" \
